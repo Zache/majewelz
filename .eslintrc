@@ -1,0 +1,27 @@
+{
+	"env": {
+		"browser": true,
+		"node": true,
+		"commonjs": true
+	},
+	"parser": "babel-eslint",
+	"plugins": [
+		"react"
+	],
+	"ecmaFeatures": {
+		"jsx": true
+	},
+	"extends": "eslint:recommended",
+	"rules": {
+		"no-unused-vars": [1, {"vars": "all", "args": "after-used", "argsIgnorePattern": "^_" }],
+		"react/jsx-uses-react": 1,
+		"no-irregular-whitespace": 0,
+		"no-console": 1
+	},
+	"globals": {
+		"bonsai": true,
+		"Rect": true,
+		"Group": true,
+		"stage": true
+	}
+}

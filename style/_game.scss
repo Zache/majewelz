@@ -1,0 +1,33 @@
+@import 'variables';
+
+#bonsai {
+	svg {
+		height: 80vw;
+		width: 80vw;
+	}
+}
+
+.game {
+
+}
+
+.dev-tools {
+	
+}
+
+.board {
+	background: lightgray;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	height: 80vw;
+	width: 80vw;
+	
+	.cell {
+		flex: 0 0 12.5%;
+		height: 12.5%;
+		background: darkgray;
+		border: 1px solid black;
+		box-sizing: border-box;
+	}
+}
