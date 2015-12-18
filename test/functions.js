@@ -69,10 +69,10 @@ test('mark should mark one row and one column', function(assert) {
 	]);
 	
 	var expected = [
-		{ color: "yellow", index: 0 }, { color: "yellow", index: 1 }, { removed: true, index: 2 }, { color: "green", index: 3 }, { color: "white", index: 4 }, { color: "green", index: 5 }, { color: "blue", index: 6 }, { color: "purple", index: 7 }, 
-		{ color: "yellow", index: 8 }, { color: "white", index: 9 }, { removed: true, index: 10 }, { color: "green", index: 11 }, { color: "blue", index: 12 }, { color: "red", index: 13 }, { color: "orange", index: 14 }, { color: "purple", index: 15 }, 
-		{ color: "blue", index: 16 }, { color: "orange", index: 17 }, { removed: true, index: 18 }, { color: "orange", index: 19 }, 
-		{ removed: true, index: 20 }, { removed: true, index: 21 }, { removed: true, index: 22 },
+		{ color: "yellow", index: 0 }, { color: "yellow", index: 1 }, { color: "purple", removed: true, index: 2 }, { color: "green", index: 3 }, { color: "white", index: 4 }, { color: "green", index: 5 }, { color: "blue", index: 6 }, { color: "purple", index: 7 }, 
+		{ color: "yellow", index: 8 }, { color: "white", index: 9 }, { color: "purple", removed: true, index: 10 }, { color: "green", index: 11 }, { color: "blue", index: 12 }, { color: "red", index: 13 }, { color: "orange", index: 14 }, { color: "purple", index: 15 }, 
+		{ color: "blue", index: 16 }, { color: "orange", index: 17 }, { color: "purple", removed: true, index: 18 }, { color: "orange", index: 19 }, 
+		{ color: "yellow", removed: true, index: 20 }, { color: "yellow", removed: true, index: 21 }, { color: "yellow", removed: true, index: 22 },
 		{ color: "green", index: 23 }, 
 		{ color: "purple", index: 24 }, { color: "purple", index: 25 }, { color: "orange", index: 26 }, { color: "green", index: 27 },
 		{ color: "green", index: 28 },{ color: "purple", index: 29 },{ color: "green", index: 30 },{ color: "white", index: 31 },{ color: "yellow", index: 32 },{ color: "green", index: 33 },{ color: "green", index: 34 },
