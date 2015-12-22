@@ -1,0 +1,12 @@
+{
+	"preset": "node-style-guide",
+	"validateIndentation": 4,
+	"requireCurlyBraces": [
+		"try",
+		"catch"
+	],
+	"maximumLineLength": false,
+	"validateLineBreaks": false,
+	"requireTrailingComma": false,
+	"disallowMultipleVarDecl": false
+}
